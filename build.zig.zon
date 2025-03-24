@@ -1,0 +1,19 @@
+.{
+    .name = .samurai,
+    .version = "0.0.0",
+
+    .fingerprint = 0xa1fa1541c24573f8, // Changing this has security and trust implications.
+    .minimum_zig_version = "0.14.0",
+
+    .dependencies = .{
+        .upstream = .{
+            .url = "git+https://github.com/michaelforney/samurai.git#737f702fed670acb25e5e70b4b802690df7a4a8b",
+            .hash = "N-V-__8AAFOjAQBGX-oWjg08XdgcBZn2L2ZHrrOz-_8xmCjS",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "README.md",
+    },
+}
