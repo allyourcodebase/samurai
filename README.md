@@ -1,3 +1,3 @@
 # samurai
 
-(`samurai`)[https://github.com/michaelforney/samurai] packaged with `build.zig`
+[`samurai`](https://github.com/michaelforney/samurai) packaged with `build.zig`
